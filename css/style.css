@@ -38,3 +38,7 @@ h1{
     color: darkred;
     text-shadow: 2px 2px darkgray;
 }
+
+#fondo{
+    background-image: url(../images/coolbackground.jpg);
+}
