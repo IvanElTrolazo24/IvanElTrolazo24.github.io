@@ -11,4 +11,17 @@ h1{
 #nugger {
     display: flex;
     justify-content: center;
+    height: 360px;
+}
+
+.nigga-font {
+    font-family: fantasy;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#doggerinos {
+    display: flex;
+    justify-content: center;
+    height: 380px;
 }
