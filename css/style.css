@@ -1,4 +1,14 @@
 h1{
     margin: 0;
-    padding: 0:
+    padding: 0;
+}
+#cool-title {
+    font-family: comic sans ms;
+    text-align: center;
+    
+}
+
+#nugger {
+    display: flex;
+    justify-content: center;
 }
