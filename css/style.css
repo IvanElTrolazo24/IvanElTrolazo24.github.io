@@ -4,8 +4,10 @@ h1{
 }
 #cool-title {
     font-family: comic sans ms;
+    font-size: 5em;
     text-align: center;
-    
+    color: rgb(255,0,255);
+    text-shadow: 4px 4px darkgray;
 }
 
 #nugger {
@@ -18,27 +20,42 @@ h1{
     font-family: fantasy;
     text-decoration: underline;
     text-align: center;
+    color:aquamarine;
+    text-shadow: 3px 3px darkgray;
 }
 
-#doggerinos {
+
+.doggerinos {
     display: flex;
     justify-content: center;
     height: 380px;
 }
 
+.doggerinos:hover{
+    transition: 5s;
+    background-image: url(../images/doggerinos-rip.png);
+    background-size: contain;
+}
 .nigga-buttons {
    display: flex;
     justify-content: center;
+    
 }
-
+.nigga-buttons: hover{
+    transition: 0.5;
+    background-color: blueviolet;
+    
+}
 #special-font {
     font-family: serif;
     font-size: 3em;
     text-align: center;
     color: darkred;
+   
     text-shadow: 2px 2px darkgray;
 }
 
 #fondo{
     background-image: url(../images/coolbackground.jpg);
+     background-size: auto; 
 }
